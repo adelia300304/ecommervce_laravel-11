@@ -6,10 +6,8 @@
 <script src="{{ asset('assets/templates/admin/modules/nicescroll/jquery.nicescroll.min.js') }}"></script>
 <script src="{{ asset('assets/templates/admin/modules/moment.min.js') }}"></script>
 <script src="{{ asset('assets/templates/admin/js/stisla.js') }}"></script>
-
-<!-- JS Libraries -->
+<!-- JS Libraies -->
 <!-- Page Specific JS File -->
-
 <!-- Template JS File -->
 <script src="{{ asset('assets/templates/admin/js/scripts.js') }}"></script>
 <script src="{{ asset('assets/templates/admin/js/custom.js') }}"></script>

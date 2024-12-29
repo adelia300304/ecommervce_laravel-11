@@ -16,11 +16,9 @@ class AdminMiddleware
      */
     public function handle(Request $request, Closure $next): Response
     {
-        // Menghapus kesalahan penggunaan Auth :: Auth
-        if (!Auth::guard('admin')->check()) {
+        if (!Auth::guard('admin')->check()){
             return redirect('/');
         }
-
         return $next($request);
     }
 }
